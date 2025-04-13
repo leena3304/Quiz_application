@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="question-container">
+    <h1 id="question-text"></h1>
+    <div id="options"></div>
+    <div id="lifelines"></div> <!-- Section to display lifelines -->
+  </div>
+
+  <div id="final-score" style="display: none;">
+    <h2>Game Over</h2>
+    <p id="score"></p>
+    <button onclick="window.location.reload()">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
